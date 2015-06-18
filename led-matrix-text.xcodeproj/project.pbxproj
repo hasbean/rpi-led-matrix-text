@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC4B14CA1B32F529004BD8CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14C91B32F529004BD8CC /* main.cpp */; };
+		CC4B14CA1B32F529004BD8CC /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14C91B32F529004BD8CC /* main.cc */; };
 		CC4B14DC1B32F620004BD8CC /* bdf-font.cc in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14D31B32F620004BD8CC /* bdf-font.cc */; };
 		CC4B14DD1B32F620004BD8CC /* framebuffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14D51B32F620004BD8CC /* framebuffer.cc */; };
 		CC4B14DE1B32F620004BD8CC /* gpio.cc in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14D61B32F620004BD8CC /* gpio.cc */; };
@@ -31,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		CC4B14C61B32F529004BD8CC /* led-matrix-text */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "led-matrix-text"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC4B14C91B32F529004BD8CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CC4B14C91B32F529004BD8CC /* main.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
 		CC4B14D31B32F620004BD8CC /* bdf-font.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "bdf-font.cc"; path = "matrix/lib/bdf-font.cc"; sourceTree = SOURCE_ROOT; };
 		CC4B14D41B32F620004BD8CC /* framebuffer-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "framebuffer-internal.h"; path = "matrix/lib/framebuffer-internal.h"; sourceTree = SOURCE_ROOT; };
 		CC4B14D51B32F620004BD8CC /* framebuffer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = framebuffer.cc; path = matrix/lib/framebuffer.cc; sourceTree = SOURCE_ROOT; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				CC4B14D21B32F616004BD8CC /* lib */,
-				CC4B14C91B32F529004BD8CC /* main.cpp */,
+				CC4B14C91B32F529004BD8CC /* main.cc */,
 			);
 			path = "led-matrix-text";
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			files = (
 				CC4B14E01B32F620004BD8CC /* led-matrix.cc in Sources */,
 				CC4B14DE1B32F620004BD8CC /* gpio.cc in Sources */,
-				CC4B14CA1B32F529004BD8CC /* main.cpp in Sources */,
+				CC4B14CA1B32F529004BD8CC /* main.cc in Sources */,
 				CC4B14DC1B32F620004BD8CC /* bdf-font.cc in Sources */,
 				CC4B14DF1B32F620004BD8CC /* graphics.cc in Sources */,
 				CC4B14E11B32F620004BD8CC /* Makefile in Sources */,
