@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4B14CA1B32F529004BD8CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14C91B32F529004BD8CC /* main.cpp */; };
+		CC4B14DC1B32F620004BD8CC /* bdf-font.cc in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14D31B32F620004BD8CC /* bdf-font.cc */; };
+		CC4B14DD1B32F620004BD8CC /* framebuffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14D51B32F620004BD8CC /* framebuffer.cc */; };
+		CC4B14DE1B32F620004BD8CC /* gpio.cc in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14D61B32F620004BD8CC /* gpio.cc */; };
+		CC4B14DF1B32F620004BD8CC /* graphics.cc in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14D71B32F620004BD8CC /* graphics.cc */; };
+		CC4B14E01B32F620004BD8CC /* led-matrix.cc in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14D81B32F620004BD8CC /* led-matrix.cc */; };
+		CC4B14E11B32F620004BD8CC /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14D91B32F620004BD8CC /* Makefile */; };
+		CC4B14E21B32F620004BD8CC /* thread.cc in Sources */ = {isa = PBXBuildFile; fileRef = CC4B14DA1B32F620004BD8CC /* thread.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC4B14C41B32F529004BD8CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC4B14C61B32F529004BD8CC /* led-matrix-text */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "led-matrix-text"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4B14C91B32F529004BD8CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CC4B14D31B32F620004BD8CC /* bdf-font.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "bdf-font.cc"; path = "matrix/lib/bdf-font.cc"; sourceTree = SOURCE_ROOT; };
+		CC4B14D41B32F620004BD8CC /* framebuffer-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "framebuffer-internal.h"; path = "matrix/lib/framebuffer-internal.h"; sourceTree = SOURCE_ROOT; };
+		CC4B14D51B32F620004BD8CC /* framebuffer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = framebuffer.cc; path = matrix/lib/framebuffer.cc; sourceTree = SOURCE_ROOT; };
+		CC4B14D61B32F620004BD8CC /* gpio.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gpio.cc; path = matrix/lib/gpio.cc; sourceTree = SOURCE_ROOT; };
+		CC4B14D71B32F620004BD8CC /* graphics.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = graphics.cc; path = matrix/lib/graphics.cc; sourceTree = SOURCE_ROOT; };
+		CC4B14D81B32F620004BD8CC /* led-matrix.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "led-matrix.cc"; path = "matrix/lib/led-matrix.cc"; sourceTree = SOURCE_ROOT; };
+		CC4B14D91B32F620004BD8CC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = matrix/lib/Makefile; sourceTree = SOURCE_ROOT; };
+		CC4B14DA1B32F620004BD8CC /* thread.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = thread.cc; path = matrix/lib/thread.cc; sourceTree = SOURCE_ROOT; };
+		CC4B14DB1B32F620004BD8CC /* utf8-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "utf8-internal.h"; path = "matrix/lib/utf8-internal.h"; sourceTree = SOURCE_ROOT; };
+		CC4B14E31B32F634004BD8CC /* canvas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = canvas.h; path = matrix/include/canvas.h; sourceTree = SOURCE_ROOT; };
+		CC4B14E41B32F634004BD8CC /* gpio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gpio.h; path = matrix/include/gpio.h; sourceTree = SOURCE_ROOT; };
+		CC4B14E51B32F634004BD8CC /* graphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = graphics.h; path = matrix/include/graphics.h; sourceTree = SOURCE_ROOT; };
+		CC4B14E61B32F634004BD8CC /* led-matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "led-matrix.h"; path = "matrix/include/led-matrix.h"; sourceTree = SOURCE_ROOT; };
+		CC4B14E71B32F634004BD8CC /* thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = thread.h; path = matrix/include/thread.h; sourceTree = SOURCE_ROOT; };
+		CC4B14E81B32F634004BD8CC /* threaded-canvas-manipulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "threaded-canvas-manipulator.h"; path = "matrix/include/threaded-canvas-manipulator.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4B14C31B32F529004BD8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4B14BD1B32F529004BD8CC = {
+			isa = PBXGroup;
+			children = (
+				CC4B14C81B32F529004BD8CC /* led-matrix-text */,
+				CC4B14C71B32F529004BD8CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4B14C71B32F529004BD8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4B14C61B32F529004BD8CC /* led-matrix-text */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4B14C81B32F529004BD8CC /* led-matrix-text */ = {
+			isa = PBXGroup;
+			children = (
+				CC4B14D21B32F616004BD8CC /* lib */,
+				CC4B14C91B32F529004BD8CC /* main.cpp */,
+			);
+			path = "led-matrix-text";
+			sourceTree = "<group>";
+		};
+		CC4B14D21B32F616004BD8CC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				CC4B14E31B32F634004BD8CC /* canvas.h */,
+				CC4B14E41B32F634004BD8CC /* gpio.h */,
+				CC4B14E51B32F634004BD8CC /* graphics.h */,
+				CC4B14E61B32F634004BD8CC /* led-matrix.h */,
+				CC4B14E71B32F634004BD8CC /* thread.h */,
+				CC4B14E81B32F634004BD8CC /* threaded-canvas-manipulator.h */,
+				CC4B14D31B32F620004BD8CC /* bdf-font.cc */,
+				CC4B14D41B32F620004BD8CC /* framebuffer-internal.h */,
+				CC4B14D51B32F620004BD8CC /* framebuffer.cc */,
+				CC4B14D61B32F620004BD8CC /* gpio.cc */,
+				CC4B14D71B32F620004BD8CC /* graphics.cc */,
+				CC4B14D81B32F620004BD8CC /* led-matrix.cc */,
+				CC4B14D91B32F620004BD8CC /* Makefile */,
+				CC4B14DA1B32F620004BD8CC /* thread.cc */,
+				CC4B14DB1B32F620004BD8CC /* utf8-internal.h */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4B14C51B32F529004BD8CC /* led-matrix-text */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4B14CD1B32F529004BD8CC /* Build configuration list for PBXNativeTarget "led-matrix-text" */;
+			buildPhases = (
+				CC4B14C21B32F529004BD8CC /* Sources */,
+				CC4B14C31B32F529004BD8CC /* Frameworks */,
+				CC4B14C41B32F529004BD8CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "led-matrix-text";
+			productName = "led-matrix-text";
+			productReference = CC4B14C61B32F529004BD8CC /* led-matrix-text */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4B14BE1B32F529004BD8CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Bojacob;
+				TargetAttributes = {
+					CC4B14C51B32F529004BD8CC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = CC4B14C11B32F529004BD8CC /* Build configuration list for PBXProject "led-matrix-text" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC4B14BD1B32F529004BD8CC;
+			productRefGroup = CC4B14C71B32F529004BD8CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4B14C51B32F529004BD8CC /* led-matrix-text */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4B14C21B32F529004BD8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4B14E01B32F620004BD8CC /* led-matrix.cc in Sources */,
+				CC4B14DE1B32F620004BD8CC /* gpio.cc in Sources */,
+				CC4B14CA1B32F529004BD8CC /* main.cpp in Sources */,
+				CC4B14DC1B32F620004BD8CC /* bdf-font.cc in Sources */,
+				CC4B14DF1B32F620004BD8CC /* graphics.cc in Sources */,
+				CC4B14E11B32F620004BD8CC /* Makefile in Sources */,
+				CC4B14DD1B32F620004BD8CC /* framebuffer.cc in Sources */,
+				CC4B14E21B32F620004BD8CC /* thread.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC4B14CB1B32F529004BD8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC4B14CC1B32F529004BD8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC4B14CE1B32F529004BD8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC4B14CF1B32F529004BD8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4B14C11B32F529004BD8CC /* Build configuration list for PBXProject "led-matrix-text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4B14CB1B32F529004BD8CC /* Debug */,
+				CC4B14CC1B32F529004BD8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4B14CD1B32F529004BD8CC /* Build configuration list for PBXNativeTarget "led-matrix-text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4B14CE1B32F529004BD8CC /* Debug */,
+				CC4B14CF1B32F529004BD8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4B14BE1B32F529004BD8CC /* Project object */;
+}
