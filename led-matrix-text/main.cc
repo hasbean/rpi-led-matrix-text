@@ -12,8 +12,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+#include <string>
 
 using namespace rgb_matrix;
+using namespace std;
 
 static int usage(const char *progname) {
     fprintf(stderr, "usage: %s [options]\n", progname);
@@ -125,6 +127,23 @@ int main(int argc, char *argv[]) {
     }
     
     char line[1024];
+    
+    std::string txt;
+    
+    while (fgets(line, sizeof(line), stdin)) {
+        
+        bool line_empty = strlen(line) == 0;
+        
+        if (line_empty) {
+            printf("Empty line.\n");
+        }
+        else {
+            printf("Not so empty line");
+        }
+        
+    }
+    
+    
     while (fgets(line, sizeof(line), stdin)) {
         const size_t last = strlen(line);
         if (last > 0) line[last - 1] = '\0';  // remove newline.
